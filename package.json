@@ -1,22 +1,22 @@
 {
-  "name": "phonate",
+  "name": "spehl",
   "type": "module",
   "version": "1.0.0",
   "description": "Phonetic English",
-  "main": "phonate.js",
+  "main": "site/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eobrain/phonate.git"
+    "url": "git+https://github.com/eobrain/spehl.git"
   },
   "author": "Eamonn O'Brien-Strain",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eobrain/phonate/issues"
+    "url": "https://github.com/eobrain/spehl/issues"
   },
-  "homepage": "https://github.com/eobrain/phonate#readme",
+  "homepage": "https://github.com/eobrain/spehl#readme",
   "dependencies": {
     "fastest-levenshtein": "^1.0.16",
     "n-readlines": "^1.0.1"
