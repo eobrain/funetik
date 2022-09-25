@@ -2,14 +2,14 @@ import { convert } from 'https://cdn.jsdelivr.net/npm/phonate/phonate.js'
 
 /* global inputElement, outputElement */
 
-function resizeToFit (elem) {
+function resizeToFit(elem) {
   console.log(`clientHeight=${elem.clientHeight} scrollHeight=${elem.scrollHeight}`)
   while (elem.clientHeight < elem.scrollHeight) {
     elem.rows++
   }
 }
 
-function doIt () {
+function doIt() {
   outputElement.innerText = convert(inputElement.value)
   resizeToFit(inputElement)
   resizeToFit(outputElement)
@@ -18,3 +18,10 @@ function doIt () {
 doIt()
 
 inputElement.oninput = doIt
+
+for (const element of document.getElementsByClassName('ph')) {
+  element.innerHTML = '<ruby>' + element.innerText.split(' ').map(
+    w => `<rb> ${w} </rb><rp> (</rp><rt>${convert(w)}</rt><rp>) </rp>`
+    ).join(' ') + '</ruby>'
+
+}

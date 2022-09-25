@@ -1,3 +1,7 @@
 html {
-    font-size: 27px;
+    /*font-size: 27px;*/
+}
+
+ruby > rb {
+    margin: 0 0.2em;
 }
