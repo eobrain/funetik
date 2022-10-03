@@ -3,13 +3,13 @@
 
 This code is deployed at  https://spehl.tech/ 
 
-To build
+To update with the latest phonate library
 
 1. Install [node][1] (for example by installing [nvm][2], `cd`ing to this directory, and executing `nvm use` )
 2. In this directory execute
    ```sh
    npm install
-   bajel
+   npx bajel
    ```
 
 

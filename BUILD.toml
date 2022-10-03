@@ -1,1 +1,8 @@
-[all]
+[import]
+deps = ["site/phonate.js", "site/phonetic.js"]
+
+["site/phonate.js"]
+exec = "cd site && wget https://cdn.jsdelivr.net/npm/phonate/phonate.js"
+
+["site/phonetic.js"]
+exec = "cd site && wget https://cdn.jsdelivr.net/npm/phonate/phonetic.js"
