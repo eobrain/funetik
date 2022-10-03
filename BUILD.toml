@@ -6,3 +6,6 @@ exec = "cd site && wget https://cdn.jsdelivr.net/npm/phonate/phonate.js"
 
 ["site/phonetic.js"]
 exec = "cd site && wget https://cdn.jsdelivr.net/npm/phonate/phonetic.js"
+
+[dev]
+exec = "cp ../phonate/phonate.js ../phonate/phonetic.js site"
