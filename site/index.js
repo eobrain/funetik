@@ -1,4 +1,4 @@
-import { convert } from 'https://cdn.jsdelivr.net/npm/phonate/phonate.js'
+import { convert } from './phonate.js'
 
 /* global inputElement, outputElement */
 
