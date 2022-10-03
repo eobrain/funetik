@@ -1,3 +1,6 @@
+[website]
+# Nothing to do
+
 [import]
 deps = ["site/phonate.js", "site/phonetic.js"]
 
