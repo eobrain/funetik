@@ -1,7 +1,7 @@
 
-# Spehl
+# Funetik
 
-This code is deployed at  https://spehl.tech/ 
+This code is deployed at  https://funetik.site/ 
 
 To update with the latest phonate library
 
@@ -21,7 +21,7 @@ To run the web user interface:
    ```
 2. Run live-server
    ```sh
-   (cd site; live-server)
+   (cd docs; live-server)
    ```
 
 Uses the [phonate library][3]

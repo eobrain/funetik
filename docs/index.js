@@ -10,7 +10,7 @@ function resizeToFit(elem) {
 }
 
 function doIt() {
-  outputElement.innerText = convert(inputElement.value)
+  outputElement.innerHTML = convert(inputElement.value)
   resizeToFit(inputElement)
   resizeToFit(outputElement)
 }
